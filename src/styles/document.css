@@ -1,0 +1,1654 @@
+@page{size:A4 portrait;margin:0}
+.a4-page{width:210mm;min-height:297mm;background:#fff;margin:0 auto;position:relative;padding:8mm 10mm 12mm;box-shadow:0 22px 55px rgba(15,23,42,.20);color:#111827;font-family:Arial,Helvetica,sans-serif;overflow:visible}
+.document-header{height:25mm;display:grid;grid-template-columns:42mm 1fr 33mm;align-items:start;gap:6px}.document-logo{width:42mm;height:18mm;display:flex;align-items:flex-start;justify-content:flex-start;overflow:hidden}.document-logo img{width:40mm;height:18mm;object-fit:contain;display:block}.document-header h1{text-align:center;margin:0;font-size:19pt;font-weight:500;line-height:1.08}.document-header>b{color:#d6652d;font-size:8pt;text-align:right;white-space:nowrap}
+.a4-page table{border-collapse:collapse;width:100%;table-layout:fixed}.a4-page th,.a4-page td{border:1.5px solid #111;padding:3px 5px;vertical-align:middle;font-size:10pt;overflow-wrap:anywhere}.a4-page th{font-weight:800}.document-footer{display:none!important}
+.header-meta{border:2px solid #111;margin-bottom:3mm}.header-meta th,.header-meta td{height:auto;padding:.55mm .8mm;font-size:8.4pt;line-height:1.08}.header-meta th{width:30mm;text-align:left}.header-meta .header-meta-input{min-height:5.2mm;padding:.35mm .55mm;line-height:1.15}.header-meta .header-side{width:74mm;padding:.55mm .7mm;font-size:7.1pt;vertical-align:top}.header-side-stack{display:grid;gap:.35mm}.header-side-row{display:grid;grid-template-columns:40mm minmax(0,1fr);align-items:center;gap:.8mm;min-width:0}.header-side-row b{display:block;width:auto;margin:0;font-size:6.45pt;line-height:1;white-space:nowrap;overflow:visible}.header-side-row .inline-field{display:block;width:100%;min-width:0;font-size:7.1pt}.header-side-row .header-side-input{min-height:5mm;padding:.3mm .45mm;line-height:1.12}
+.loto-types{margin:3mm 0;display:grid;gap:2mm;font-size:12pt}.loto-types .inline-check{white-space:nowrap;gap:5px}.cover-photo{border:1.8px solid #0b3542;border-radius:8mm;height:44mm;margin:4mm 0;padding:5mm}.ppe-grid{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid #111;background:#dcefd3;margin-bottom:8mm}.ppe-chip{min-height:22mm;border:1px solid #111;display:grid;grid-template-rows:auto 1fr;align-content:center;gap:1mm;padding:1.5mm 2mm;font-size:8.5pt;font-weight:700}.ppe-icons{min-height:10.5mm;display:flex;align-items:center;justify-content:center;gap:1.5mm;flex-wrap:wrap}.ppe-symbol{width:10.5mm;height:10.5mm;object-fit:contain;display:block}.ppe-text{display:flex;align-items:center;gap:5px;min-width:0;line-height:1.12}.ppe-chip input{width:14px;height:14px;flex:0 0 auto}.ppe-chip .selection-mark{font-weight:900;min-width:8px}.ppe-chip.checked{background:#e5f4de}.energy-table th{text-align:center;font-size:11pt}.energy-table td{height:auto;min-height:40mm}.energy-grid{display:grid;grid-template-columns:1fr 1fr;gap:5px}.energy-grid label{border:1px solid #cbd5e1;border-radius:6px;padding:4px 6px;display:grid;grid-template-columns:10mm minmax(0,1fr);align-items:center;gap:5px;min-height:11mm;font-size:9pt}.energy-icon{width:9mm;height:9mm;object-fit:contain;display:block;justify-self:center}.energy-label{display:flex;align-items:center;gap:5px;min-width:0;line-height:1.1}.energy-label input{flex:0 0 auto}.energy-label .selection-mark{font-weight:900;min-width:8px}.energy-grid label.checked{background:#eff6ff;border-color:#93c5fd}
+.safety-box{border:2px solid #e11d1d;padding:2mm;min-height:0;height:auto;margin-bottom:8mm;overflow:visible}.safety-box h2{margin:0 0 2mm;text-align:center;font-size:13pt}.numbered-edit{display:grid;grid-template-columns:6mm 7mm minmax(0,1fr) 14mm;align-items:start;gap:1mm;margin:1mm 0;position:relative}.numbered-edit .safety-number{font-size:9pt;padding-top:4px;text-align:center}.numbered-edit .inline-field{font-size:9.2pt;font-weight:700;line-height:1.18}.numbered-edit .inline-textarea{height:auto;min-height:28px;overflow:hidden;overflow-y:hidden;resize:none;white-space:pre-wrap;overflow-wrap:anywhere;field-sizing:content}.safety-drag-handle{width:6mm;height:26px;border:0;background:transparent;color:#64748b;display:grid;place-items:center;cursor:grab;border-radius:5px;padding:0}.safety-drag-handle:hover{background:#eef4fa;color:#0f172a}.safety-drag-handle:active{cursor:grabbing}.safety-row-actions{display:grid;grid-template-columns:1fr 1fr;gap:2px;align-items:start}.safety-row-actions button{height:24px;min-width:0;border:1px solid #d8e1ec;background:#fff;color:#475569;border-radius:5px;display:grid;place-items:center;padding:0}.safety-row-actions button:hover:not(:disabled){background:#eef4fa;color:#0f172a;border-color:#b7c6d8}.safety-row-actions button:disabled{opacity:.28;cursor:not-allowed}.safety-row-actions .row-delete{grid-column:1/-1;color:#b42318;border-color:#fecaca}.safety-row-actions .row-delete:hover{background:#fff1f2;color:#991b1b}.safety-row-dragging{opacity:.55;background:#eff6ff;box-shadow:0 5px 14px rgba(15,23,42,.12);border-radius:5px}.section-title{border:1.5px solid #111;padding:1.5mm;font-weight:900;font-size:11pt}.unit-line{display:flex;justify-content:center;gap:25mm;border:1.5px solid #111;border-top:0;padding:2mm}.people-table th,.people-table td{font-size:8.6pt;height:7mm;text-align:left}.editable-table-wrap{margin-top:3mm}
+.authorized-workers-table{table-layout:fixed;width:100%;border-collapse:collapse}
+.authorized-workers-table thead th{font-size:8.8pt;font-weight:900;text-align:left;height:7mm;padding:1mm 1.5mm}
+.authorized-workers-table th,.authorized-workers-table td{height:7mm;padding:1mm 1.5mm;font-size:8.6pt;text-align:left;vertical-align:middle}
+.authorized-workers-table tbody th:nth-child(1),.authorized-workers-table tbody th:nth-child(3),.authorized-workers-table tbody th:nth-child(5){width:16%}
+.authorized-workers-table tbody td:nth-child(2),.authorized-workers-table tbody td:nth-child(4),.authorized-workers-table tbody td:nth-child(6){width:17.333%}
+.authorized-workers-table .inline-field{min-height:0;padding:0;font-size:8.5pt}
+.authorized-workers-table .authorized-worker-row-start>th,.authorized-workers-table .authorized-worker-row-start>td{border-top-width:2px}
+.verifier-table{margin-top:3mm;table-layout:fixed;width:100%;border-collapse:collapse}.verifier-table th,.verifier-table td{border:1px solid #111;height:7mm;padding:1mm 1.5mm;font-size:8.6pt;text-align:left;vertical-align:middle}.verifier-table th{font-weight:900}.verifier-table .verifier-note{height:auto;min-height:7mm;padding:1.1mm 1.5mm;font-size:8.6pt}.verifier-table th:nth-child(1),.verifier-table th:nth-child(3),.verifier-table th:nth-child(5){width:17%}.verifier-table td:nth-child(2),.verifier-table td:nth-child(4),.verifier-table td:nth-child(6){width:16.333%}.verifier-table .inline-field{min-height:0;padding:0;font-size:8.5pt}.verifier-date-time{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,.8fr);gap:.8mm;align-items:center}.verifier-date-time>span{font-weight:800;color:#475569}.verifier-date-time .inline-field{min-width:0}
+.equipment-table th,.equipment-table td{font-size:9pt;text-align:center}.equipment-table td{height:30mm}.equipment-table th.left,.points-table th.left,.steps-table th.left{text-align:left}.equipment-table td:nth-child(1){width:10mm}.equipment-table td:nth-child(4){width:22mm}.equipment-table .inline-image{height:25mm}.points-table{margin-top:5mm}.points-table th,.points-table td{font-size:8.4pt;text-align:center}.points-table td{height:12mm}.points-table th:first-child{width:9mm}.points-table .inline-field{font-size:8.2pt;text-align:center}
+.steps-table th,.steps-table td{font-size:8.4pt;text-align:center}.steps-table td{height:29mm}.steps-table th:first-child{width:13mm}.steps-table th:nth-child(2){width:52mm}.steps-table th:nth-child(3){width:43mm}.steps-table td:nth-child(3){padding:0!important;overflow:hidden;vertical-align:middle;position:relative}.steps-table td:nth-child(3) .inline-image{position:relative;width:100%;height:29mm;min-height:29mm;display:flex;align-items:center;justify-content:center;overflow:hidden}.steps-table td:nth-child(3) .inline-image>img{width:auto!important;height:auto!important;max-width:100%!important;max-height:29mm!important;object-fit:contain!important;object-position:center!important;display:block}.steps-table td:nth-child(3) .image-placeholder{width:100%;height:29mm;min-height:29mm;border-radius:0}.steps-table .inline-field{font-size:8.2pt}.commissioning{margin-top:7mm}.commissioning p{font-size:9pt;font-weight:700}
+.edit-only{width:8mm!important}.instruction-page{padding:5mm 8mm 8mm}.instruction-page .document-header{height:19mm;grid-template-columns:34mm 1fr 27mm;align-items:center}.instruction-page .document-logo{width:29mm;height:14.5mm}.instruction-page .document-logo img{width:100%;height:100%;object-fit:contain}.instruction-page .document-header h1{font-size:15.3pt;font-weight:850}.instruction-page .document-header>b{font-size:7.3pt}.instruction-page .sortable-section{margin-top:1.3mm}
+.instruction-top-meta{display:block;width:100%}.instruction-top-meta-table{width:100%;table-layout:fixed;border-collapse:collapse}.instruction-top-meta-table col.meta-col-facility-label{width:24mm}.instruction-top-meta-table col.meta-col-facility-value{width:36mm}.instruction-top-meta-table col.meta-col-location-label{width:17mm}.instruction-top-meta-table col.meta-col-location-value{width:61mm}.instruction-top-meta-table col.meta-col-doc-label{width:28mm}.instruction-top-meta-table col.meta-col-doc-value-a{width:14mm}.instruction-top-meta-table col.meta-col-doc-value-b{width:14mm}.instruction-top-meta-table th,.instruction-top-meta-table td{font-size:8.05pt;line-height:1.16;padding:1.15mm 1.25mm;vertical-align:middle}.instruction-top-meta-table th{background:#eef2f6;text-align:left;font-weight:900}.instruction-top-meta-table td{height:8.5mm}.instruction-top-meta-table .instruction-work-scope-label{white-space:nowrap;font-size:7.7pt}.instruction-top-meta-table .instruction-work-scope-value{height:17mm}.instruction-top-meta-table .instruction-doc-label{white-space:nowrap;font-size:7.25pt;padding-left:.9mm;padding-right:.9mm}.instruction-top-meta-table .instruction-doc-value{padding:.8mm .9mm}.instruction-top-meta-table .inline-field{font-size:7.8pt;line-height:1.16;min-height:6.7mm}.instruction-top-meta-table .instruction-doc-value .inline-field{font-size:7.15pt;min-height:6.2mm}.instruction-top-meta-table .instruction-work-scope-value .inline-field{font-size:7.8pt;line-height:1.2}.inline-pair{display:grid;grid-template-columns:1fr 1fr;gap:1mm}
+.instruction-summary th{font-size:8.2pt;padding:.8mm;color:#fff}.instruction-summary th:first-child{background:#1479cf}.instruction-summary th:last-child{background:#d4b800;color:#111827}.instruction-summary td{height:14mm;padding:.8mm 1.2mm}.instruction-icon-cell{position:relative;min-height:11mm;display:flex;align-items:center;justify-content:center}.instruction-icon-strip{width:100%;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:1mm;min-height:10mm}.instruction-icon-item{position:relative;display:inline-flex;align-items:center;justify-content:center;width:10mm;height:10mm;flex:0 0 10mm}.instruction-icon-item>img{width:10mm;height:10mm;display:block;object-fit:contain}.instruction-icon-remove{position:absolute;right:-1.5mm;top:-1.5mm;width:4mm;height:4mm;padding:0;border:1px solid #cbd5e1;border-radius:999px;background:#fff;color:#b42318;display:grid;place-items:center;box-shadow:0 1px 3px rgba(15,23,42,.18);cursor:pointer}.instruction-icon-add{width:8mm;height:8mm;padding:0;border:1px dashed #94a3b8;border-radius:6px;background:#f8fafc;color:#475569;display:grid;place-items:center;cursor:pointer}.instruction-icon-add.open{border-style:solid;border-color:#64748b;background:#eef2f6;color:#b42318}.instruction-icon-picker{position:absolute;z-index:90;left:1mm;right:1mm;top:calc(100% + 1mm);padding:1.2mm;background:#fff;border:1px solid #cbd5e1;border-radius:7px;box-shadow:0 8px 20px rgba(15,23,42,.16);display:grid;grid-template-columns:repeat(6,1fr);gap:1mm}.instruction-icon-picker button{height:12mm;padding:.7mm;border:1px solid #d7e0ea;border-radius:5px;background:#fff;display:grid;place-items:center;cursor:pointer}.instruction-icon-picker button.selected{background:#e8f3ff;border-color:#60a5fa;box-shadow:inset 0 0 0 1px #60a5fa}.instruction-icon-picker img{width:9mm;height:9mm;object-fit:contain;display:block}.preview-mode .instruction-icon-strip{min-height:10mm}
+.locking-summary{display:grid;grid-template-columns:32mm minmax(0,1fr);border:1.4px solid #111}.locking-point-info{display:grid;grid-template-columns:minmax(0,1fr) 12mm;align-items:center;gap:1mm;padding:.7mm;border-right:1.4px solid #111;min-width:0}.locking-point-caption{font-size:7.2pt;font-weight:900;line-height:1.02;min-width:0}.locking-count-input{box-sizing:border-box!important;width:12mm!important;min-width:12mm!important;max-width:12mm!important;height:9mm!important;padding:0 .6mm!important;background:#dc2f3c!important;color:#fff!important;text-align:center;font-size:13.5pt!important;line-height:1!important;font-weight:900;border-radius:2.5mm!important;overflow:hidden!important;text-overflow:clip!important}.preview-mode .locking-count-input{background:#dc2f3c!important;color:#fff!important;-webkit-text-fill-color:#fff!important;opacity:1!important}.locking-steps-title{background:#dc2f3c;color:#fff;text-align:center;font-size:7.7pt;font-weight:900;padding:.5mm}.locking-steps-text{font-size:7pt;line-height:1.1;padding:.6mm 1mm}
+.instruction-photo-gallery{display:flex;align-items:flex-start;align-content:flex-start;flex-wrap:wrap;gap:1.2mm;max-width:100%;overflow:visible}.instruction-photo-tile{box-sizing:border-box;margin:0;border:0;padding:0;background:transparent;display:block;position:relative;overflow:visible;isolation:isolate;flex:0 0 auto;width:fit-content;max-width:100%}.instruction-photo-visual{box-sizing:content-box;border:1px solid #aeb9c6;padding:.65mm;background:#fff;display:grid;grid-template-rows:auto auto;gap:.45mm;position:relative;overflow:visible;width:fit-content;max-width:100%}.instruction-photo-media{position:relative;display:block;overflow:visible;flex:none;outline:none;touch-action:none}.instruction-photo-media:focus{outline:1px solid #2563eb;outline-offset:1px}.instruction-photo-media .inline-image{width:100%;height:100%;min-height:0}.instruction-photo-media .inline-image>img{width:100%;height:100%;max-width:none;max-height:none;object-fit:contain}.instruction-photo-tile .inline-field{font-size:6.7pt;text-align:center}.instruction-photo-tile-resizing{z-index:40}.instruction-photo-tile-resizing .image-hover-actions{display:none!important}.edit-mode .instruction-photo-tile .image-hover-actions{left:50%;right:auto;top:1mm;bottom:auto;transform:translateX(-50%);white-space:nowrap}.photo-resize-handle{display:none;position:absolute;z-index:55;width:3.2mm!important;height:3.2mm!important;min-width:3.2mm!important;padding:0!important;border:1px solid #2563eb!important;border-radius:999px!important;background:#fff!important;box-shadow:0 1px 4px rgba(15,23,42,.22)!important}.edit-mode .instruction-photo-media:hover .photo-resize-handle,.edit-mode .instruction-photo-media:focus .photo-resize-handle,.edit-mode .instruction-photo-media:focus-within .photo-resize-handle,.edit-mode .instruction-photo-tile-resizing .photo-resize-handle{display:block}.photo-resize-nw{left:-1.6mm;top:-1.6mm;cursor:nwse-resize}.photo-resize-n{left:50%;top:-1.6mm;transform:translateX(-50%);cursor:ns-resize}.photo-resize-ne{right:-1.6mm;top:-1.6mm;cursor:nesw-resize}.photo-resize-e{right:-1.6mm;top:50%;transform:translateY(-50%);cursor:ew-resize}.photo-resize-se{right:-1.6mm;bottom:-1.6mm;cursor:nwse-resize}.photo-resize-s{left:50%;bottom:-1.6mm;transform:translateX(-50%);cursor:ns-resize}.photo-resize-sw{left:-1.6mm;bottom:-1.6mm;cursor:nesw-resize}.photo-resize-w{left:-1.6mm;top:50%;transform:translateY(-50%);cursor:ew-resize}.photo-resize-dimensions{position:absolute;right:1mm;bottom:1mm;z-index:60;padding:.55mm 1mm;border-radius:999px;background:rgba(15,23,42,.9);color:#fff;font-size:6.2pt;font-weight:900;line-height:1;pointer-events:none;white-space:nowrap}.instruction-photo-add{align-self:flex-start;margin:.8mm 0 0 .3mm}
+.instruction-points th{background:#e9eef4;text-align:center;font-size:7.15pt;padding:1mm .7mm}.instruction-points td{font-size:7pt;padding:.6mm;vertical-align:top;height:10.5mm}.instruction-points .inline-field{font-size:7pt;line-height:1.08;min-height:7mm}.instruction-points th:last-child{width:7mm}
+.instruction-lock-equipment-cell{display:grid;gap:.7mm;min-height:10.5mm}.instruction-lock-equipment-cell.is-drop-target{outline:1.4px dashed #2563eb;outline-offset:-1px;background:#eff6ff}.instruction-lock-equipment-grid{display:flex;align-items:flex-start;align-content:flex-start;flex-wrap:wrap;gap:.8mm}.instruction-lock-equipment-tile{position:relative;display:flex;align-items:center;justify-content:center;width:8.6mm;height:8.6mm;padding:.35mm;border:1px solid #cbd5e1;border-radius:1.4mm;background:#fff;overflow:hidden}.instruction-lock-equipment-tile img{display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}.instruction-lock-equipment-remove{position:absolute;right:.2mm;top:.2mm;width:3.6mm;height:3.6mm;padding:0;border:1px solid rgba(148,163,184,.85);border-radius:999px;background:rgba(255,255,255,.96);color:#475569;display:grid;place-items:center;cursor:pointer}.instruction-lock-equipment-remove:hover{background:#fff1f2;border-color:#fecaca;color:#b42318}.instruction-lock-equipment-add,.instruction-lock-equipment-empty{border:1px dashed #94a3b8;border-radius:1.6mm;background:#f8fafc;color:#475569;display:flex;align-items:center;justify-content:center;gap:.8mm;font-size:6.7pt;font-weight:800;padding:1mm;min-height:9mm}.instruction-lock-equipment-add{width:auto;min-width:16mm}.instruction-lock-equipment-empty{flex-direction:column;align-items:center;width:100%}.instruction-lock-equipment-empty small{font-size:6.2pt;font-weight:700;color:#64748b}.instruction-lock-equipment-add:hover,.instruction-lock-equipment-empty:hover{background:#eef6ff;border-color:#93c5fd;color:#1d4ed8}.instruction-lock-equipment-legacy{font-size:6.5pt;line-height:1.08;white-space:pre-wrap;overflow-wrap:anywhere;color:#334155}
+.removal-block{border:1.4px solid #111}.removal-title{background:#2fa84f;color:#fff;text-align:center;font-size:7.8pt;font-weight:900;padding:.6mm}.removal-text{font-size:6.8pt;line-height:1.08;padding:.6mm 1mm}
+.instruction-signers{width:100%;table-layout:fixed;border-collapse:collapse}.instruction-signers col.instruction-signer-label-col{width:11%}.instruction-signers col.instruction-signer-value-col{width:22.333%}.instruction-signers thead th{background:#2fa84f;color:#fff;text-align:center;font-size:7.7pt;padding:.6mm}.instruction-signers tbody th,.instruction-signers tbody td{vertical-align:middle;padding:.6mm}.instruction-signers tbody th.instruction-signer-row-label{background:#f3f6f9;color:#111;text-align:left;font-size:7.15pt;white-space:nowrap}.instruction-signers tbody td{font-size:7.4pt}.instruction-signers .inline-field{font-size:7.4pt;padding:.35mm .5mm;min-height:6.5mm}.instruction-signers tbody tr{height:auto}
+@media print{
+  html,body{background:#fff!important}.no-print,.section-tools,.app-toolbar{display:none!important}.canvas-shell{padding:0!important;background:#fff!important;overflow:visible!important}.canvas-stage{display:block!important;width:auto!important}.zoom-wrapper{transform:none!important;margin:0!important}.sortable-page{margin:0!important}.a4-page{box-shadow:none!important;margin:0!important;page-break-after:always;break-after:page}.instruction-page{page-break-after:auto;break-after:auto}.inline-field{border-color:transparent!important;background:transparent!important;box-shadow:none!important;resize:none!important;appearance:none!important;outline:0!important}.inline-field::placeholder{color:transparent!important;opacity:0!important}.inline-check input{display:none!important}.inline-check .print-tick{display:inline-flex!important}.inline-check.checked .print-tick{background:#1683ed!important;border-color:#1683ed!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.ppe-chip input,.energy-grid input{display:none!important}.ppe-chip:not(.checked),.energy-grid label:not(.checked){display:none!important}.image-hover-actions,.image-placeholder,.inline-add,.edit-only,.row-delete,.photo-resize-handle,.photo-resize-dimensions{display:none!important}.instruction-photo-tile{break-inside:avoid}.sortable-section{break-inside:auto}.document-footer{display:none!important}.a4-page textarea{overflow:visible!important}
+}
+
+.preview-mode .numbered-edit{grid-template-columns:7mm minmax(0,1fr)}
+.preview-mode .numbered-edit .safety-number{grid-column:1}.preview-mode .numbered-edit .inline-textarea{grid-column:2}
+@media print{.numbered-edit{grid-template-columns:7mm minmax(0,1fr)!important}.numbered-edit .safety-number{grid-column:1}.numbered-edit .inline-textarea{grid-column:2;height:auto!important;overflow:visible!important}}
+
+/* V4.1.4: Personel silme aksiyonu tablo sütunu değildir; her satırın sağında, tablo dışında sade ikon olarak durur. */
+.people-table{overflow:visible}
+.people-table .person-signature-cell{position:relative;overflow:visible!important}
+.people-table .person-delete-outside{
+  position:absolute;
+  left:calc(100% + 1.6mm);
+  top:50%;
+  transform:translateY(-50%);
+  width:5.5mm;
+  height:5.5mm;
+  padding:0;
+  border:0;
+  border-radius:4px;
+  background:transparent;
+  color:#94a3b8;
+  display:grid;
+  place-items:center;
+  cursor:pointer;
+  opacity:.58;
+  transition:color .14s ease,opacity .14s ease,transform .14s ease;
+}
+.edit-mode .people-table .person-row:hover .person-delete-outside,
+.edit-mode .people-table .person-row:focus-within .person-delete-outside{opacity:.9}
+.edit-mode .people-table .person-delete-outside:hover,
+.edit-mode .people-table .person-delete-outside:focus-visible{
+  color:#dc2626;
+  opacity:1;
+  outline:none;
+  transform:translateY(-50%) scale(1.08);
+}
+.preview-mode .people-table .person-delete-outside{display:none!important}
+@media print{.people-table .person-delete-outside{display:none!important}}
+
+/* V4.1.7: LOTO ekipmanı ve LOTO noktası silme aksiyonları veri tablosunun parçası değildir. */
+.equipment-table,.points-table,.steps-table,.instruction-points{overflow:visible}
+.equipment-table .equipment-action-anchor,
+.points-table .points-action-anchor,
+.steps-table .steps-action-anchor,
+.instruction-points .instruction-point-action-anchor{position:relative;overflow:visible!important}
+.table-row-delete-outside{
+  position:absolute;
+  left:calc(100% + 1.6mm);
+  top:50%;
+  transform:translateY(-50%);
+  width:5.5mm;
+  height:5.5mm;
+  padding:0;
+  border:0;
+  border-radius:4px;
+  background:transparent;
+  color:#94a3b8;
+  display:grid;
+  place-items:center;
+  cursor:pointer;
+  opacity:.58;
+  transition:color .14s ease,opacity .14s ease,transform .14s ease;
+}
+.edit-mode .equipment-table .equipment-row:hover .table-row-delete-outside,
+.edit-mode .equipment-table .equipment-row:focus-within .table-row-delete-outside,
+.edit-mode .points-table .point-row:hover .table-row-delete-outside,
+.edit-mode .points-table .point-row:focus-within .table-row-delete-outside,
+.edit-mode .steps-table .step-row:hover .table-row-delete-outside,
+.edit-mode .steps-table .step-row:focus-within .table-row-delete-outside,
+.edit-mode .instruction-points .instruction-point-row:hover .table-row-delete-outside,
+.edit-mode .instruction-points .instruction-point-row:focus-within .table-row-delete-outside{opacity:.9}
+.edit-mode .table-row-delete-outside:hover,
+.edit-mode .table-row-delete-outside:focus-visible{
+  color:#dc2626;
+  opacity:1;
+  outline:none;
+  transform:translateY(-50%) scale(1.08);
+}
+.preview-mode .table-row-delete-outside{display:none!important}
+@media print{.table-row-delete-outside{display:none!important}}
+
+/* V4.1.8: 5. LOTO Talimatı silme aksiyonu da tablo dışında gösterilir. */
+
+/* V4.1.9: 2. LOTO Ekipmanları, 4. LOTO Noktaları ve 5. LOTO Talimatı satır içi sıralama. */
+.sortable-table-row{transition:opacity .14s ease,box-shadow .14s ease}
+.sortable-table-row.table-row-dragging{opacity:.72;box-shadow:0 8px 18px rgba(15,23,42,.14);background:#f8fbff}
+.table-row-order-cell{padding:.35mm .4mm!important}
+.table-row-order-content{display:flex;align-items:center;justify-content:center;gap:.55mm;width:100%;min-height:5mm}
+.table-row-drag-handle{
+  width:4.2mm;
+  height:5mm;
+  padding:0;
+  border:0;
+  border-radius:3px;
+  background:transparent;
+  color:#94a3b8;
+  display:grid;
+  place-items:center;
+  cursor:grab;
+  touch-action:none;
+  opacity:.55;
+  transition:color .14s ease,opacity .14s ease,background .14s ease,transform .14s ease;
+}
+.table-row-drag-handle:hover,.table-row-drag-handle:focus-visible{color:#2563eb;opacity:1;background:#eff6ff;outline:none}
+.table-row-drag-handle:active{cursor:grabbing;transform:scale(.96)}
+.edit-mode .sortable-table-row:hover .table-row-drag-handle,.edit-mode .sortable-table-row:focus-within .table-row-drag-handle{opacity:.95}
+.preview-mode .table-row-order-content{gap:0}
+.preview-mode .table-row-order-content>span{margin:auto}
+@media print{
+  .table-row-drag-handle{display:none!important}
+  .table-row-order-content{gap:0!important}
+  .table-row-order-content>span{margin:auto!important}
+}
+
+/* V4.1.14: Çoklu fotoğraf editörü. Her fotoğraf kendi 52 mm+ editör alanını rezerve eder; kontrol ve hover aksiyonları komşu karta taşmaz. */
+.edit-mode .instruction-photo-tile{overflow:visible}
+.edit-mode .instruction-photo-gallery{padding-bottom:.5mm}
+.preview-mode .instruction-photo-gallery{gap:.8mm}
+@media print{.instruction-photo-gallery{gap:.8mm!important}}
+
+/* v4.1.16: Fotoğraf sıralama + kontrollü X/Y nudge + hizalama. */
+.instruction-photo-visual{transition:transform .12s ease}
+.instruction-photo-tile-dragging{z-index:80!important;filter:drop-shadow(0 4px 10px rgba(15,23,42,.18))}
+.photo-drag-handle,.photo-position-toolbar{display:none;position:absolute;z-index:58}
+.edit-mode .instruction-photo-media:hover .photo-drag-handle,
+.edit-mode .instruction-photo-media:focus .photo-drag-handle,
+.edit-mode .instruction-photo-media:focus-within .photo-drag-handle{display:inline-flex}
+.photo-drag-handle{left:1mm;top:1mm;width:6mm!important;height:6mm!important;min-width:6mm!important;padding:0!important;align-items:center;justify-content:center;border:1px solid rgba(148,163,184,.85)!important;border-radius:1.8mm!important;background:rgba(255,255,255,.94)!important;color:#475569!important;box-shadow:0 1px 5px rgba(15,23,42,.14)!important;cursor:grab!important;touch-action:none}
+.photo-drag-handle:active{cursor:grabbing!important;background:#eff6ff!important;color:#1d4ed8!important}
+.edit-mode .instruction-photo-media:hover .photo-position-toolbar,
+.edit-mode .instruction-photo-media:focus .photo-position-toolbar,
+.edit-mode .instruction-photo-media:focus-within .photo-position-toolbar{display:flex}
+.photo-position-toolbar{left:50%;bottom:1mm;transform:translateX(-50%);gap:.45mm;padding:.5mm;border:1px solid rgba(148,163,184,.8);border-radius:2.2mm;background:rgba(255,255,255,.95);box-shadow:0 2px 8px rgba(15,23,42,.15);white-space:nowrap}
+.photo-position-toolbar button{width:6mm!important;height:5.5mm!important;min-width:6mm!important;min-height:5.5mm!important;padding:0!important;border:0!important;border-radius:1.4mm!important;background:transparent!important;color:#475569!important;box-shadow:none!important;font-size:8pt!important;font-weight:900!important;line-height:1!important}
+.photo-position-toolbar button:hover{background:#eef2f7!important;color:#0f172a!important}
+.photo-position-toolbar button.active{background:#dbeafe!important;color:#1d4ed8!important}
+.preview-mode .photo-drag-handle,.preview-mode .photo-position-toolbar{display:none!important}
+@media print{.photo-drag-handle,.photo-position-toolbar{display:none!important}}
+
+
+/* v4.1.17: Fotoğraf editör kontrollerini ayır, nudge alanını belge akışında rezerve et.
+   Amaç: hiçbir fotoğraf büyütme/kaydırma işlemi alttaki Kilitleme Noktaları tablosunun üstüne binmesin. */
+.instruction-photo-gallery{
+  position:relative;
+  isolation:isolate;
+  overflow:visible;
+}
+.instruction-photo-tile{
+  /* Dinamik inline padding değerleri X/Y ofset alanını normal akışta rezerve eder. */
+  min-width:0;
+}
+.edit-mode .instruction-photo-tile .image-hover-actions{
+  left:auto!important;
+  right:-6.25mm!important;
+  top:0!important;
+  bottom:auto!important;
+  transform:none!important;
+  flex-direction:column!important;
+  gap:.45mm!important;
+  z-index:64!important;
+}
+.edit-mode .instruction-photo-tile .image-hover-actions button{
+  width:5.6mm!important;
+  min-width:5.6mm!important;
+  height:5.6mm!important;
+  min-height:5.6mm!important;
+  padding:0!important;
+  border-radius:1.6mm!important;
+  display:grid!important;
+  place-items:center!important;
+  font-size:0!important;
+  line-height:1!important;
+  box-shadow:0 1px 5px rgba(15,23,42,.16)!important;
+}
+.edit-mode .instruction-photo-tile .image-hover-actions button svg{
+  width:3.4mm!important;
+  height:3.4mm!important;
+  margin:0!important;
+}
+.edit-mode .instruction-photo-tile .image-hover-actions button:last-child{
+  background:rgba(255,255,255,.96)!important;
+  color:#dc2626!important;
+  border:1px solid #fecaca!important;
+}
+.edit-mode .instruction-photo-tile .image-hover-actions button:first-child{
+  background:rgba(15,23,42,.90)!important;
+  color:#fff!important;
+}
+.photo-drag-handle{
+  left:1mm!important;
+  top:1mm!important;
+  z-index:66!important;
+}
+.photo-position-toolbar{display:none!important}
+.photo-position-menu{
+  display:none;
+  position:absolute;
+  right:-6.25mm;
+  top:12.1mm;
+  z-index:65;
+  margin:0;
+}
+.edit-mode .instruction-photo-media:hover .photo-position-menu,
+.edit-mode .instruction-photo-media:focus .photo-position-menu,
+.edit-mode .instruction-photo-media:focus-within .photo-position-menu,
+.edit-mode .instruction-photo-tile:focus-within .photo-position-menu{
+  display:block;
+}
+.photo-position-menu>summary{
+  list-style:none;
+  width:5.6mm;
+  height:5.6mm;
+  min-width:5.6mm;
+  min-height:5.6mm;
+  padding:0;
+  border:1px solid rgba(148,163,184,.85);
+  border-radius:1.6mm;
+  background:rgba(255,255,255,.97);
+  color:#475569;
+  box-shadow:0 1px 5px rgba(15,23,42,.14);
+  cursor:pointer;
+  display:grid;
+  place-items:center;
+  font-size:8pt;
+  font-weight:900;
+  line-height:1;
+}
+.photo-position-menu>summary::-webkit-details-marker{display:none}
+.photo-position-menu[open]>summary{
+  background:#eff6ff;
+  color:#1d4ed8;
+  border-color:#93c5fd;
+}
+.photo-position-menu-panel{
+  position:absolute;
+  top:calc(100% + .7mm);
+  right:0;
+  display:grid;
+  grid-template-columns:repeat(2,5.7mm);
+  gap:.5mm;
+  padding:.7mm;
+  border:1px solid rgba(148,163,184,.85);
+  border-radius:2mm;
+  background:#fff;
+  box-shadow:0 4px 12px rgba(15,23,42,.18);
+  white-space:nowrap;
+}
+.photo-position-menu-panel button{
+  width:5.7mm!important;
+  height:5.5mm!important;
+  min-width:5.7mm!important;
+  min-height:5.5mm!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:1.3mm!important;
+  background:transparent!important;
+  color:#475569!important;
+  box-shadow:none!important;
+  font-size:8pt!important;
+  font-weight:900!important;
+}
+.photo-position-menu-panel button:hover{
+  background:#eef2f7!important;
+  color:#0f172a!important;
+}
+.photo-position-menu-panel button.active{
+  background:#dbeafe!important;
+  color:#1d4ed8!important;
+}
+.preview-mode .photo-position-menu{display:none!important}
+@media print{.photo-position-menu{display:none!important}}
+
+/* Taşınan görsel kendi akış alanını büyüttüğü için takip eden tablo hiçbir koşulda görselin altına girmez. */
+.instruction-photo-gallery + .instruction-points{
+  position:relative;
+  z-index:1;
+  clear:both;
+}
+
+/* v4.1.18: Fotoğraf kontrolleri seçim-tabanlı ve görselin içine sabitlenir.
+   Hover alanının dışına taşan kontrol yok; fotoğraf seçili kaldığı sürece menü/resize kaybolmaz. */
+.edit-mode .instruction-photo-tile .photo-drag-handle,
+.edit-mode .instruction-photo-tile .photo-menu-trigger{
+  display:none!important;
+}
+.edit-mode .instruction-photo-tile:hover .photo-drag-handle,
+.edit-mode .instruction-photo-tile.photo-selected .photo-drag-handle{
+  display:grid!important;
+}
+.edit-mode .instruction-photo-tile.photo-selected .photo-menu-trigger{
+  display:grid!important;
+}
+.edit-mode .instruction-photo-tile.photo-selected .instruction-photo-media{
+  outline:1px solid #2563eb;
+  outline-offset:1px;
+}
+.photo-drag-handle{
+  position:absolute!important;
+  left:1mm!important;
+  top:1mm!important;
+  right:auto!important;
+  z-index:72!important;
+  width:5.8mm!important;
+  height:5.8mm!important;
+  min-width:5.8mm!important;
+  min-height:5.8mm!important;
+  padding:0!important;
+  border:1px solid rgba(148,163,184,.85)!important;
+  border-radius:1.7mm!important;
+  background:rgba(255,255,255,.95)!important;
+  color:#475569!important;
+  box-shadow:0 1px 5px rgba(15,23,42,.14)!important;
+  place-items:center!important;
+}
+.photo-menu-trigger{
+  position:absolute;
+  right:1mm;
+  top:1mm;
+  z-index:74;
+  width:5.8mm!important;
+  height:5.8mm!important;
+  min-width:5.8mm!important;
+  min-height:5.8mm!important;
+  padding:0!important;
+  border:1px solid rgba(148,163,184,.85)!important;
+  border-radius:1.7mm!important;
+  background:rgba(255,255,255,.97)!important;
+  color:#475569!important;
+  box-shadow:0 1px 5px rgba(15,23,42,.14)!important;
+  place-items:center;
+}
+.photo-menu-trigger:hover,.photo-menu-trigger[aria-expanded="true"]{
+  background:#eff6ff!important;
+  border-color:#93c5fd!important;
+  color:#1d4ed8!important;
+}
+.photo-action-menu{
+  position:absolute;
+  right:1mm;
+  top:7.5mm;
+  z-index:90;
+  width:36mm;
+  max-width:calc(100vw - 20px);
+  padding:1.1mm;
+  border:1px solid #cbd5e1;
+  border-radius:2.4mm;
+  background:#fff;
+  box-shadow:0 5px 16px rgba(15,23,42,.22);
+  display:grid;
+  gap:.45mm;
+}
+.photo-action-menu button{
+  width:100%!important;
+  min-height:6.2mm!important;
+  height:auto!important;
+  padding:1mm 1.4mm!important;
+  border:0!important;
+  border-radius:1.6mm!important;
+  background:transparent!important;
+  color:#334155!important;
+  box-shadow:none!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:flex-start!important;
+  gap:1.2mm!important;
+  text-align:left!important;
+  font-size:7.2pt!important;
+  font-weight:800!important;
+  white-space:nowrap;
+}
+.photo-action-menu button:hover{background:#f1f5f9!important;color:#0f172a!important}
+.photo-action-menu button.active{background:#dbeafe!important;color:#1d4ed8!important}
+.photo-action-menu button.danger{color:#b42318!important}
+.photo-action-menu button.danger:hover{background:#fff1f2!important;color:#991b1b!important}
+.photo-action-menu-separator{height:1px;background:#e2e8f0;margin:.35mm 0}
+
+/* Resize noktaları hover'a değil seçime bağlıdır; fare tutamacın üzerine giderken kaybolmaz. */
+.edit-mode .instruction-photo-media .photo-resize-handle{display:none!important}
+.edit-mode .instruction-photo-tile.photo-selected .photo-resize-handle,
+.edit-mode .instruction-photo-tile-resizing .photo-resize-handle{display:block!important}
+
+/* v4.1.17'de dışarı taşınan eski aksiyon/menu düzenini kesin olarak kapat. */
+.edit-mode .instruction-photo-tile .image-hover-actions,
+.photo-position-menu,
+.photo-position-toolbar{display:none!important}
+
+/* Fotoğraf galerisi normal belge akışında kendi gerçek yüksekliğini taşır.
+   Alt tablo için ayrıca küçük güvenlik aralığı bırakılır; fotoğraf büyüse de tablo üstüne bindirilemez. */
+.instruction-photo-gallery{
+  overflow:visible;
+  margin-bottom:1.4mm;
+}
+.instruction-photo-tile{
+  align-self:flex-start;
+}
+.instruction-photo-gallery + .instruction-points{
+  clear:both;
+  position:relative;
+  z-index:0;
+  margin-top:0!important;
+}
+.preview-mode .photo-menu-trigger,
+.preview-mode .photo-action-menu,
+.preview-mode .photo-drag-handle{display:none!important}
+@media print{
+  .photo-menu-trigger,.photo-action-menu,.photo-drag-handle{display:none!important}
+}
+/* Son güvenlik katmanı: galeri ile tablo geometrisi herhangi bir tarayıcı zoom/transform durumunda
+   çakışsa bile tablo her zaman kendi beyaz yüzeyiyle üstte kalır; fotoğraf hücrelerin üzerine çizilemez. */
+.instruction-photo-gallery + .instruction-points{
+  z-index:120;
+  background:#fff;
+}
+.instruction-photo-gallery + .instruction-points th,
+.instruction-photo-gallery + .instruction-points td{
+  background-color:#fff;
+}
+.instruction-photo-gallery + .instruction-points th{background-color:#e9eef4}
+
+
+/* v4.1.20: Fotoğraf seçim çerçevesi gerçek render alanıyla birebir eşleşir.
+   Dış beyaz editör kartı kaldırıldı. Kenar resize X/Y eksenini gerçekten değiştirir;
+   görsel frame dışına taşamaz. Köşe resize oran korumaya devam eder (TS mantığı). */
+.instruction-photo-visual{
+  border:0!important;
+  padding:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+  gap:.45mm;
+}
+.instruction-photo-media{
+  box-sizing:border-box!important;
+  background:transparent!important;
+}
+.instruction-photo-media .inline-image{
+  width:100%!important;
+  height:100%!important;
+  min-height:0!important;
+  display:block!important;
+  overflow:hidden!important;
+  background:transparent!important;
+}
+.instruction-photo-media .inline-image>img{
+  display:block!important;
+  width:100%!important;
+  height:100%!important;
+  min-width:100%!important;
+  min-height:100%!important;
+  max-width:none!important;
+  max-height:none!important;
+  object-fit:fill!important;
+  background:transparent!important;
+}
+/* Browser zoom/transform kaynaklı outline kaymalarını önlemek için seçim çizgisi
+   aynı media kutusunun içine pseudo-element olarak çizilir. */
+.edit-mode .instruction-photo-tile.photo-selected .instruction-photo-media{
+  outline:none!important;
+}
+.edit-mode .instruction-photo-tile.photo-selected .instruction-photo-media::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:54;
+  box-sizing:border-box;
+  border:1px solid #2563eb;
+  pointer-events:none;
+}
+/* Focus yalnız klavye erişilebilirliğinde hafif halka verir; seçili frame'in geometrisini değiştirmez. */
+.edit-mode .instruction-photo-media:focus-visible{
+  outline:1px solid rgba(37,99,235,.35)!important;
+  outline-offset:1px!important;
+}
+.preview-mode .instruction-photo-media::after{display:none!important}
+@media print{.instruction-photo-media::after{display:none!important}}
+
+
+/* V4.1.23: Kilitleme Noktası sayısı edit, önizleme ve PDF/yazdırda aynı görünür. */
+@media print{
+  .locking-count-input{
+    background:#dc2f3c!important;
+    color:#fff!important;
+    -webkit-text-fill-color:#fff!important;
+    opacity:1!important;
+    -webkit-print-color-adjust:exact!important;
+    print-color-adjust:exact!important;
+  }
+}
+
+/* V4.1.24: Talimat Kilitleme Noktaları tablosunda silme aksiyonu veri sütunu değildir; son hücrenin sağ dışında gösterilir. */
+.instruction-points th:last-child{width:auto}
+
+/* V4.1.25: Talimat > Kilitleme Noktaları satırları kendi içinde sürüklenebilir; yeni veri sütunu açılmaz. */
+.instruction-point-first-cell{display:flex;align-items:flex-start;gap:.45mm;min-width:0;width:100%}
+.instruction-point-first-cell>.inline-field{flex:1 1 auto;min-width:0}
+.instruction-point-drag-handle{flex:0 0 4.2mm;margin-top:.15mm}
+.preview-mode .instruction-point-first-cell{gap:0}
+.preview-mode .instruction-point-drag-handle{display:none!important}
+@media print{
+  .instruction-point-first-cell{gap:0!important}
+  .instruction-point-drag-handle{display:none!important}
+}
+
+/* V4.1.28 — 5. LOTO Talimatı photo cell editor */
+.steps-table .step-photo-cell{
+  padding:0!important;
+  overflow:visible!important;
+  vertical-align:middle;
+  position:relative;
+}
+.steps-table .step-photo-editor{
+  position:relative;
+  width:100%;
+  height:29mm;
+  min-height:29mm;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:visible;
+}
+.steps-table .step-photo-editor .inline-image{
+  width:100%;
+  height:29mm;
+  min-height:29mm;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+.steps-table .step-photo-editor .inline-image>img{
+  width:auto!important;
+  height:auto!important;
+  max-width:100%!important;
+  max-height:29mm!important;
+  object-fit:contain!important;
+  object-position:center!important;
+  display:block;
+  -webkit-user-drag:none;
+  user-select:none;
+}
+.edit-mode .steps-table .step-photo-editor.has-photo{
+  cursor:grab;
+}
+.edit-mode .steps-table .step-photo-editor.has-photo:active{
+  cursor:grabbing;
+}
+.step-photo-menu-wrap{
+  position:absolute;
+  top:1mm;
+  right:1mm;
+  z-index:74;
+}
+.step-photo-menu-trigger{
+  width:6mm!important;
+  height:6mm!important;
+  min-width:6mm!important;
+  min-height:6mm!important;
+  padding:0!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  border:1px solid rgba(148,163,184,.85)!important;
+  border-radius:1.8mm!important;
+  background:rgba(255,255,255,.96)!important;
+  color:#475569!important;
+  box-shadow:0 1px 5px rgba(15,23,42,.14)!important;
+}
+.step-photo-menu-trigger:hover,.step-photo-menu-trigger[aria-expanded="true"]{
+  background:#eef2f7!important;
+  color:#0f172a!important;
+}
+.step-photo-action-menu{
+  position:absolute;
+  top:7mm;
+  right:0;
+  z-index:90;
+  min-width:31mm;
+  padding:.7mm;
+  border:1px solid #d8dee8;
+  border-radius:2mm;
+  background:#fff;
+  box-shadow:0 3px 12px rgba(15,23,42,.18);
+  display:grid;
+  gap:.35mm;
+}
+.step-photo-action-menu button{
+  width:100%!important;
+  min-height:6.5mm!important;
+  padding:1mm 1.4mm!important;
+  border:0!important;
+  border-radius:1.3mm!important;
+  background:transparent!important;
+  color:#334155!important;
+  box-shadow:none!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:flex-start!important;
+  gap:1.2mm!important;
+  font-size:7pt!important;
+  font-weight:800!important;
+  white-space:nowrap;
+}
+.step-photo-action-menu button:hover{
+  background:#f1f5f9!important;
+  color:#0f172a!important;
+}
+.step-photo-action-menu button.danger{
+  color:#b42318!important;
+}
+.step-photo-action-menu button.danger:hover{
+  background:#fff1f2!important;
+  color:#991b1b!important;
+}
+.edit-mode .step-photo-cell.step-photo-drop-target::after{
+  content:'Buraya bırak';
+  position:absolute;
+  inset:1mm;
+  z-index:68;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:1.5px dashed #2563eb;
+  border-radius:2mm;
+  background:rgba(219,234,254,.88);
+  color:#1d4ed8;
+  font-size:7pt;
+  font-weight:900;
+  pointer-events:none;
+}
+.edit-mode .step-photo-cell.step-photo-drag-source .step-photo-editor{
+  opacity:.45;
+}
+.preview-mode .step-photo-menu-wrap{display:none!important}
+@media print{
+  .step-photo-menu-wrap{display:none!important}
+}
+
+
+/* V4.1.29 — Windows/macOS dosya yöneticisinden 5. LOTO Talimatı fotoğraf hücresine doğrudan sürükle-bırak. */
+.edit-mode .step-photo-cell.step-photo-external-drop-target::after{
+  content:'Fotoğrafı buraya bırak';
+  position:absolute;
+  inset:1mm;
+  z-index:69;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:1.5px dashed #2563eb;
+  border-radius:2mm;
+  background:rgba(219,234,254,.92);
+  color:#1d4ed8;
+  font-size:7pt;
+  font-weight:900;
+  pointer-events:none;
+}
+.preview-mode .step-photo-cell.step-photo-external-drop-target::after{display:none!important}
+@media print{
+  .step-photo-cell.step-photo-external-drop-target::after{display:none!important}
+}
+
+/* V4.1.31 — 5. LOTO Talimatı fotoğraf menüsü: güvenilir aksiyonlar ve net disabled durumu. */
+.step-photo-action-menu button:disabled{
+  opacity:.42!important;
+  cursor:not-allowed!important;
+  background:transparent!important;
+  color:#94a3b8!important;
+}
+.step-photo-action-menu button.danger:disabled{
+  color:#cbd5e1!important;
+}
+
+
+.steps-table .step-photo-editor.crop-active{cursor:default!important}
+.steps-table .step-photo-media{position:relative;width:100%;height:29mm;min-height:29mm}
+.steps-table .step-photo-media .inline-image{width:100%;height:29mm;min-height:29mm}
+.step-photo-crop-overlay{
+  position:absolute;
+  inset:0;
+  z-index:95;
+  user-select:none;
+}
+.step-photo-crop-selection{
+  position:absolute;
+  border:1.3px solid #2563eb;
+  box-shadow:0 0 0 9999px rgba(15,23,42,.32);
+  background:rgba(255,255,255,.03);
+}
+.step-photo-crop-selection::before,
+.step-photo-crop-selection::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+}
+.step-photo-crop-selection::before{
+  background-image:linear-gradient(to right, transparent 33.33%, rgba(37,99,235,.28) 33.33%, rgba(37,99,235,.28) 34.33%, transparent 34.33%, transparent 66.66%, rgba(37,99,235,.28) 66.66%, rgba(37,99,235,.28) 67.66%, transparent 67.66%), linear-gradient(to bottom, transparent 33.33%, rgba(37,99,235,.28) 33.33%, rgba(37,99,235,.28) 34.33%, transparent 34.33%, transparent 66.66%, rgba(37,99,235,.28) 66.66%, rgba(37,99,235,.28) 67.66%, transparent 67.66%);
+}
+.step-photo-crop-handle{
+  position:absolute;
+  border:1px solid #2563eb!important;
+  background:#fff!important;
+  border-radius:999px!important;
+  box-shadow:0 1px 3px rgba(15,23,42,.18)!important;
+  padding:0!important;
+  z-index:2;
+}
+.step-photo-crop-handle.handle-n,.step-photo-crop-handle.handle-s{width:10px!important;height:8px!important;left:50%;transform:translateX(-50%);cursor:ns-resize}
+.step-photo-crop-handle.handle-e,.step-photo-crop-handle.handle-w{width:8px!important;height:10px!important;top:50%;transform:translateY(-50%);cursor:ew-resize}
+.step-photo-crop-handle.handle-nw,.step-photo-crop-handle.handle-ne,.step-photo-crop-handle.handle-se,.step-photo-crop-handle.handle-sw{width:10px!important;height:10px!important;cursor:nwse-resize}
+.step-photo-crop-handle.handle-n{top:-5px}
+.step-photo-crop-handle.handle-s{bottom:-5px}
+.step-photo-crop-handle.handle-e{right:-5px}
+.step-photo-crop-handle.handle-w{left:-5px}
+.step-photo-crop-handle.handle-nw{left:-5px;top:-5px}
+.step-photo-crop-handle.handle-ne{right:-5px;top:-5px;cursor:nesw-resize}
+.step-photo-crop-handle.handle-se{right:-5px;bottom:-5px}
+.step-photo-crop-handle.handle-sw{left:-5px;bottom:-5px;cursor:nesw-resize}
+.step-photo-crop-actions{
+  position:absolute;
+  right:1mm;
+  bottom:1mm;
+  z-index:96;
+  display:flex;
+  gap:1mm;
+}
+.step-photo-crop-actions button{
+  min-height:5.8mm!important;
+  padding:0 1.8mm!important;
+  border-radius:1.5mm!important;
+  border:1px solid #cbd5e1!important;
+  background:#fff!important;
+  color:#334155!important;
+  font-size:7pt!important;
+  font-weight:800!important;
+}
+.step-photo-crop-actions button.primary{
+  border-color:#2563eb!important;
+  background:#2563eb!important;
+  color:#fff!important;
+}
+.preview-mode .step-photo-crop-overlay{display:none!important}
+@media print{.step-photo-crop-overlay{display:none!important}}
+
+/* V4.1.32 — 2. Kullanılacak LOTO Ekipmanları > Ekipman Fotoğrafı, 5. LOTO Talimatı fotoğraf editörü ile aynı etkileşim standardı. */
+.equipment-table .equipment-photo-cell{
+  padding:0!important;
+  overflow:visible!important;
+  vertical-align:middle;
+  position:relative;
+}
+.equipment-table .equipment-photo-editor{
+  position:relative;
+  width:100%;
+  height:30mm;
+  min-height:30mm;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:visible;
+}
+.equipment-table .equipment-photo-editor .inline-image{
+  width:100%;
+  height:30mm;
+  min-height:30mm;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+.equipment-table .equipment-photo-editor .inline-image>img{
+  width:auto!important;
+  height:auto!important;
+  max-width:100%!important;
+  max-height:30mm!important;
+  object-fit:contain!important;
+  object-position:center!important;
+  display:block;
+  -webkit-user-drag:none;
+  user-select:none;
+}
+.equipment-table .equipment-photo-editor .image-placeholder{
+  width:100%;
+  height:30mm;
+  min-height:30mm;
+  border-radius:0;
+}
+.equipment-table .equipment-photo-media{position:relative;width:100%;height:30mm;min-height:30mm}
+.equipment-table .equipment-photo-media .inline-image{width:100%;height:30mm;min-height:30mm}
+.equipment-table .equipment-photo-editor.crop-active{cursor:default!important}
+.edit-mode .equipment-table .equipment-photo-editor.has-photo{cursor:grab}
+.edit-mode .equipment-table .equipment-photo-editor.has-photo:active{cursor:grabbing}
+.equipment-photo-menu-wrap{
+  position:absolute;
+  top:1mm;
+  right:1mm;
+  z-index:74;
+}
+.equipment-photo-menu-trigger{
+  width:6mm!important;
+  height:6mm!important;
+  min-width:6mm!important;
+  min-height:6mm!important;
+  padding:0!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  border:1px solid rgba(148,163,184,.85)!important;
+  border-radius:1.8mm!important;
+  background:rgba(255,255,255,.96)!important;
+  color:#475569!important;
+  box-shadow:0 1px 5px rgba(15,23,42,.14)!important;
+}
+.equipment-photo-menu-trigger:hover,.equipment-photo-menu-trigger[aria-expanded="true"]{
+  background:#eef2f7!important;
+  color:#0f172a!important;
+}
+.equipment-photo-action-menu{
+  position:absolute;
+  top:7mm;
+  right:0;
+  z-index:90;
+  min-width:31mm;
+  padding:.7mm;
+  border:1px solid #d8dee8;
+  border-radius:2mm;
+  background:#fff;
+  box-shadow:0 3px 12px rgba(15,23,42,.18);
+  display:grid;
+  gap:.35mm;
+}
+.equipment-photo-action-menu button{
+  width:100%!important;
+  min-height:6.5mm!important;
+  padding:1mm 1.4mm!important;
+  border:0!important;
+  border-radius:1.3mm!important;
+  background:transparent!important;
+  color:#334155!important;
+  box-shadow:none!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:flex-start!important;
+  gap:1.2mm!important;
+  font-size:7pt!important;
+  font-weight:800!important;
+  white-space:nowrap;
+}
+.equipment-photo-action-menu button:hover:not(:disabled){
+  background:#f1f5f9!important;
+  color:#0f172a!important;
+}
+.equipment-photo-action-menu button.danger{color:#b42318!important}
+.equipment-photo-action-menu button.danger:hover:not(:disabled){
+  background:#fff1f2!important;
+  color:#991b1b!important;
+}
+.equipment-photo-action-menu button:disabled{
+  opacity:.42!important;
+  cursor:not-allowed!important;
+  background:transparent!important;
+  color:#94a3b8!important;
+}
+.equipment-photo-action-menu button.danger:disabled{color:#cbd5e1!important}
+.edit-mode .equipment-photo-cell.equipment-photo-drop-target::after{
+  content:'Buraya bırak';
+  position:absolute;
+  inset:1mm;
+  z-index:68;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:1.5px dashed #2563eb;
+  border-radius:2mm;
+  background:rgba(219,234,254,.88);
+  color:#1d4ed8;
+  font-size:7pt;
+  font-weight:900;
+  pointer-events:none;
+}
+.edit-mode .equipment-photo-cell.equipment-photo-external-drop-target::after{
+  content:'Fotoğrafı buraya bırak';
+  position:absolute;
+  inset:1mm;
+  z-index:69;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:1.5px dashed #2563eb;
+  border-radius:2mm;
+  background:rgba(219,234,254,.92);
+  color:#1d4ed8;
+  font-size:7pt;
+  font-weight:900;
+  pointer-events:none;
+}
+.edit-mode .equipment-photo-cell.equipment-photo-drag-source .equipment-photo-editor{opacity:.45}
+.preview-mode .equipment-photo-menu-wrap,
+.preview-mode .equipment-photo-cell.equipment-photo-external-drop-target::after{display:none!important}
+@media print{
+  .equipment-photo-menu-wrap,
+  .equipment-photo-cell.equipment-photo-external-drop-target::after{display:none!important}
+}
+
+/* V4.2.0: KİLİTLEME / ETİKETLEME TALİMATI fotoğrafları sabit, çakışmasız çalışma alanında serbest yerleşir. */
+.instruction-photo-workspace{
+  position:relative;
+  width:100%;
+  min-height:30mm;
+  box-sizing:border-box;
+  margin:1.2mm 0 1.6mm;
+  overflow:visible;
+  background:transparent;
+  isolation:isolate;
+  transition:height .08s ease-out;
+}
+.edit-mode .instruction-photo-workspace{
+  border:1px dashed #b8c6d6;
+  border-radius:2mm;
+  background:linear-gradient(90deg,rgba(148,163,184,.06) 1px,transparent 1px),linear-gradient(rgba(148,163,184,.06) 1px,transparent 1px);
+  background-size:5mm 5mm;
+}
+.preview-mode .instruction-photo-workspace{border:0;background:transparent}
+.instruction-photo-workspace-hint{
+  position:absolute;
+  left:2mm;
+  top:1.4mm;
+  z-index:0;
+  color:#94a3b8;
+  font-size:6.5pt;
+  font-style:italic;
+  pointer-events:none;
+  user-select:none;
+}
+.instruction-photo-free-tile{
+  position:absolute;
+  margin:0;
+  padding:0;
+  border:0;
+  background:transparent;
+  box-sizing:border-box;
+  user-select:none;
+  touch-action:none;
+}
+.instruction-photo-free-media{
+  position:relative;
+  width:100%;
+  overflow:hidden;
+  box-sizing:border-box;
+  background:transparent;
+  cursor:grab;
+  outline:none;
+  touch-action:none;
+}
+.edit-mode .instruction-photo-free-tile.photo-selected .instruction-photo-free-media{
+  box-shadow:inset 0 0 0 1px #2563eb;
+}
+/* V4.2.9: çarpışmada tüm çerçeve değil, yalnız temas eden kenar kırmızı olur. */
+.edit-mode .instruction-photo-free-tile .instruction-photo-free-media::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:110;
+  box-sizing:border-box;
+  pointer-events:none;
+  border-style:solid;
+  border-width:2px;
+  border-color:
+    var(--photo-collision-top,transparent)
+    var(--photo-collision-right,transparent)
+    var(--photo-collision-bottom,transparent)
+    var(--photo-collision-left,transparent);
+}
+.edit-mode .instruction-photo-free-tile.photo-collision-top{--photo-collision-top:#dc2626}
+.edit-mode .instruction-photo-free-tile.photo-collision-right{--photo-collision-right:#dc2626}
+.edit-mode .instruction-photo-free-tile.photo-collision-bottom{--photo-collision-bottom:#dc2626}
+.edit-mode .instruction-photo-free-tile.photo-collision-left{--photo-collision-left:#dc2626}
+.instruction-photo-free-tile.photo-interacting .instruction-photo-free-media{cursor:grabbing}
+.instruction-photo-free-img{
+  display:block;
+  width:100%;
+  height:100%;
+  max-width:none!important;
+  max-height:none!important;
+  min-width:0!important;
+  min-height:0!important;
+  transition:none!important;
+  pointer-events:none;
+  user-select:none;
+}
+.instruction-photo-free-caption{
+  display:block!important;
+  box-sizing:border-box!important;
+  width:100%!important;
+  height:5.5mm!important;
+  min-height:5.5mm!important;
+  max-height:5.5mm!important;
+  padding:.7mm .5mm!important;
+  text-align:center!important;
+  font-size:6.7pt!important;
+  line-height:1.1!important;
+  overflow:hidden!important;
+  white-space:nowrap!important;
+  text-overflow:ellipsis!important;
+}
+.instruction-photo-workspace-add{
+  position:absolute!important;
+  right:2mm;
+  bottom:2mm;
+  z-index:80;
+  min-width:28mm!important;
+  height:8mm!important;
+  padding:0 2.2mm!important;
+  border:1px dashed #7aa7d7!important;
+  border-radius:2mm!important;
+  background:rgba(248,251,255,.96)!important;
+  color:#245d93!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:1mm!important;
+  font-size:7pt!important;
+  font-weight:800!important;
+  box-shadow:0 1px 3px rgba(15,23,42,.06)!important;
+}
+.instruction-photo-workspace-add:hover{background:#eff6ff!important;border-color:#3b82f6!important;color:#1d4ed8!important}
+.instruction-photo-external-drop{
+  position:absolute;
+  inset:1.5mm;
+  z-index:150;
+  border:2px dashed #3b82f6;
+  border-radius:2mm;
+  background:rgba(239,246,255,.92);
+  color:#1d4ed8;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:2mm;
+  font-size:9pt;
+  pointer-events:none;
+}
+.edit-mode .instruction-photo-workspace.external-drag-active{border-color:#3b82f6;background:#f8fbff}
+.instruction-photo-free-tile .photo-menu-trigger{
+  display:none!important;
+  position:absolute!important;
+  right:1mm!important;
+  top:1mm!important;
+}
+.edit-mode .instruction-photo-free-tile.photo-selected .photo-menu-trigger{display:grid!important}
+.instruction-photo-free-tile .photo-action-menu{
+  top:7.6mm!important;
+  right:1mm!important;
+  width:31mm!important;
+}
+.instruction-photo-free-tile .photo-action-menu button:disabled{
+  opacity:.42!important;
+  cursor:not-allowed!important;
+  background:transparent!important;
+}
+.instruction-photo-free-tile .photo-resize-handle{display:none!important}
+.edit-mode .instruction-photo-free-tile.photo-selected .photo-resize-handle{display:block!important}
+.instruction-photo-workspace + .instruction-points{
+  position:relative;
+  z-index:1;
+  clear:both;
+  background:#fff;
+}
+
+.preview-mode .instruction-photo-workspace-hint,
+.preview-mode .instruction-photo-workspace-add,
+.preview-mode .instruction-photo-external-drop,
+.preview-mode .instruction-photo-free-tile .photo-menu-trigger,
+.preview-mode .instruction-photo-free-tile .photo-action-menu,
+.preview-mode .instruction-photo-free-tile .photo-resize-handle,
+.preview-mode .instruction-photo-free-tile .photo-resize-dimensions{display:none!important}
+@media print{
+  .instruction-photo-workspace{border:0!important;background:transparent!important;overflow:visible!important;break-inside:avoid}
+  .instruction-photo-workspace-hint,.instruction-photo-workspace-add,.instruction-photo-external-drop,.instruction-photo-free-tile .photo-menu-trigger,.instruction-photo-free-tile .photo-action-menu,.instruction-photo-free-tile .photo-resize-handle,.instruction-photo-free-tile .photo-resize-dimensions{display:none!important}
+  .instruction-photo-free-caption::placeholder{color:transparent!important}
+}
+
+/* V4.2.2: Kırpma fotoğraf üzerinde 4 kenar + 4 köşe olmak üzere 8 tutamaçla yapılır. */
+.photo-inline-crop-selection{
+  position:absolute;
+  z-index:120;
+  box-sizing:border-box;
+  border:1.5px solid #fff;
+  outline:1px solid #2563eb;
+  box-shadow:0 0 0 999px rgba(15,23,42,.52);
+  pointer-events:none;
+}
+.photo-inline-crop-grid{
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:
+    linear-gradient(to right,transparent 33.15%,rgba(255,255,255,.62) 33.25%,rgba(255,255,255,.62) 33.55%,transparent 33.65%,transparent 66.35%,rgba(255,255,255,.62) 66.45%,rgba(255,255,255,.62) 66.75%,transparent 66.85%),
+    linear-gradient(to bottom,transparent 33.15%,rgba(255,255,255,.62) 33.25%,rgba(255,255,255,.62) 33.55%,transparent 33.65%,transparent 66.35%,rgba(255,255,255,.62) 66.45%,rgba(255,255,255,.62) 66.75%,transparent 66.85%);
+}
+.photo-inline-crop-handle{
+  position:absolute;
+  padding:0;
+  border:2px solid #fff;
+  background:#2563eb;
+  box-shadow:0 1px 4px rgba(15,23,42,.28);
+  pointer-events:auto;
+  touch-action:none;
+  z-index:3;
+}
+/* Köşeler: iki ekseni aynı anda kırpar. */
+.photo-inline-crop-handle.crop-nw,
+.photo-inline-crop-handle.crop-ne,
+.photo-inline-crop-handle.crop-se,
+.photo-inline-crop-handle.crop-sw{width:10px;height:10px;border-radius:3px}
+.photo-inline-crop-handle.crop-nw{left:-6px;top:-6px;cursor:nwse-resize}
+.photo-inline-crop-handle.crop-ne{right:-6px;top:-6px;cursor:nesw-resize}
+.photo-inline-crop-handle.crop-se{right:-6px;bottom:-6px;cursor:nwse-resize}
+.photo-inline-crop-handle.crop-sw{left:-6px;bottom:-6px;cursor:nesw-resize}
+/* Kenarlar: yalnız ilgili yönden kırpar; daha uzun tutamaç hassas kullanımı kolaylaştırır. */
+.photo-inline-crop-handle.crop-n,
+.photo-inline-crop-handle.crop-s{width:22px;height:7px;border-radius:5px;left:50%;transform:translateX(-50%);cursor:ns-resize}
+.photo-inline-crop-handle.crop-n{top:-5px}
+.photo-inline-crop-handle.crop-s{bottom:-5px}
+.photo-inline-crop-handle.crop-e,
+.photo-inline-crop-handle.crop-w{width:7px;height:22px;border-radius:5px;top:50%;transform:translateY(-50%);cursor:ew-resize}
+.photo-inline-crop-handle.crop-e{right:-5px}
+.photo-inline-crop-handle.crop-w{left:-5px}
+.photo-inline-crop-toolbar{
+  position:absolute;
+  left:50%;
+  bottom:1.2mm;
+  transform:translateX(-50%);
+  z-index:145;
+  display:flex;
+  align-items:center;
+  gap:4px;
+  padding:4px;
+  border:1px solid rgba(148,163,184,.72);
+  border-radius:8px;
+  background:rgba(255,255,255,.96);
+  box-shadow:0 5px 18px rgba(15,23,42,.22);
+  white-space:nowrap;
+}
+.photo-inline-crop-toolbar button{
+  height:27px;
+  min-width:48px;
+  padding:0 8px;
+  border-radius:6px;
+  font:700 11px/1 Arial,Helvetica,sans-serif;
+  cursor:pointer;
+}
+.photo-inline-crop-toolbar button.secondary{border:1px solid #cbd5e1;background:#fff;color:#334155}
+.photo-inline-crop-toolbar button.primary{border:1px solid #2563eb;background:#2563eb;color:#fff}
+.photo-inline-crop-toolbar button:disabled{opacity:.55;cursor:wait}
+.preview-mode .photo-inline-crop-selection,
+.preview-mode .photo-inline-crop-toolbar{display:none!important}
+@media print{
+  .photo-inline-crop-selection,.photo-inline-crop-toolbar{display:none!important}
+}
+
+
+/* V4.2.26 — Kapak fotoğrafı, KİLİTLEME / ETİKETLEME TALİMATI fotoğraf editörü ile aynı etkileşim standardı. */
+.cover-photo{
+  box-sizing:border-box;
+  position:relative;
+  width:115mm;
+  max-width:115mm;
+  height:50mm;
+  min-height:50mm;
+  margin:3mm auto 4mm;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent;
+  overflow:visible;
+}
+.cover-photo-workspace{
+  position:relative;
+  width:115mm;
+  height:50mm;
+  overflow:visible;
+  box-sizing:border-box;
+}
+.cover-photo .image-placeholder{
+  width:100%;
+  height:100%;
+  min-height:0;
+  border:1px dashed #94a3b8;
+  border-radius:2mm;
+  background:#f8fafc;
+  color:#64748b;
+  font-size:8.4pt;
+  font-weight:800;
+}
+.cover-photo-media{
+  position:absolute;
+  box-sizing:border-box;
+  background:transparent;
+  cursor:grab;
+  outline:none;
+  overflow:hidden;
+  user-select:none;
+  touch-action:none;
+}
+.edit-mode .cover-photo-media{box-shadow:inset 0 0 0 1px #2563eb}
+.cover-photo-media.photo-interacting{cursor:grabbing}
+.cover-photo-img{
+  display:block;
+  width:100%;
+  height:100%;
+  max-width:none!important;
+  max-height:none!important;
+  min-width:0!important;
+  min-height:0!important;
+  pointer-events:none;
+  user-select:none;
+}
+.edit-mode .cover-photo-media .photo-menu-trigger{
+  display:grid!important;
+  right:1mm!important;
+  top:1mm!important;
+}
+.cover-photo-media .photo-action-menu{
+  top:7.6mm!important;
+  right:1mm!important;
+  width:31mm!important;
+}
+.cover-photo-media .photo-action-menu button:disabled{
+  opacity:.42!important;
+  cursor:not-allowed!important;
+  background:transparent!important;
+}
+.edit-mode .cover-photo-media .photo-resize-handle{display:block!important}
+.edit-mode .cover-photo-media .photo-inline-crop-selection~.photo-resize-handle{display:none!important}
+.edit-mode .cover-photo.cover-photo-external-drop-target::after{
+  content:'Fotoğrafı buraya bırak';
+  position:absolute;
+  inset:2mm;
+  z-index:150;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:2px dashed #3b82f6;
+  border-radius:2mm;
+  background:rgba(239,246,255,.92);
+  color:#1d4ed8;
+  font-size:8pt;
+  font-weight:900;
+  pointer-events:none;
+}
+.preview-mode .cover-photo.empty-photo{display:none!important}
+.preview-mode .cover-photo .photo-menu-trigger,
+.preview-mode .cover-photo .photo-action-menu,
+.preview-mode .cover-photo .photo-resize-handle,
+.preview-mode .cover-photo .photo-resize-dimensions,
+.preview-mode .cover-photo .photo-inline-crop-selection,
+.preview-mode .cover-photo .photo-inline-crop-toolbar,
+.preview-mode .cover-photo.cover-photo-external-drop-target::after{display:none!important}
+@media print{
+  .cover-photo{overflow:visible!important;border:0!important;background:transparent!important;box-shadow:none!important;border-radius:0!important;padding:0!important}
+  .cover-photo.empty-photo{display:none!important}
+  .cover-photo .photo-menu-trigger,
+  .cover-photo .photo-action-menu,
+  .cover-photo .photo-resize-handle,
+  .cover-photo .photo-resize-dimensions,
+  .cover-photo .photo-inline-crop-selection,
+  .cover-photo .photo-inline-crop-toolbar,
+  .cover-photo.cover-photo-external-drop-target::after{display:none!important}
+}
+
+/* V4.2.18 — KİLİTLEME / ETİKETLEME TALİMATI: tüm kilitleme noktası hücreleri Yöntem/Kontrol Yöntemi gibi içerikle aşağı doğru büyür. */
+.instruction-points .inline-textarea{
+  width:100%;
+  min-height:7mm;
+  height:auto;
+  overflow:hidden;
+  overflow-y:hidden;
+  resize:none;
+  white-space:pre-wrap;
+  overflow-wrap:anywhere;
+  field-sizing:content;
+}
+
+
+/* V4.2.19 — Kullanıcı tarafından istenen genel AutoGrow davranışı.
+   KİLİTLEME / ETİKETLEME TALİMATI'ndaki tüm metin alanları ile LOTO SOP
+   ilk sayfa ve 1–6 bölümlerindeki metin girişleri tek satırdan başlayıp
+   içerik uzadıkça aşağı doğru büyür; kısalınca tekrar küçülür. */
+.instruction-page .inline-textarea,
+.a4-page:not(.instruction-page) .inline-textarea{
+  box-sizing:border-box;
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  overflow-y:hidden;
+  resize:none;
+  white-space:pre-wrap;
+  overflow-wrap:anywhere;
+  field-sizing:content;
+}
+
+/* Yoğun tablo alanlarında başlangıç yüksekliğini mevcut klasik satır ölçüsünde tut. */
+.authorized-workers-table .inline-textarea,
+.verifier-table .inline-textarea,
+.people-table .inline-textarea,
+.points-table .inline-textarea,
+.instruction-top-meta-table .inline-textarea,
+.instruction-signers .inline-textarea{
+  min-height:7mm;
+}
+
+/* Ekipman tablosunun fotoğraf nedeniyle yüksek olan satırında metin alanını
+   gereksiz yere 30 mm'ye zorlamadan içerik kadar büyüt. */
+.equipment-table .inline-textarea{
+  min-height:7mm;
+  align-self:center;
+}
+
+/* LOTO adımı açıklaması mevcut davranışını korur. */
+.steps-table .inline-textarea{
+  min-height:7mm;
+}
+
+/* İlk sayfadaki belge üst bilgileri tek satırdan başlar; içerik arttıkça textarea satır satır büyür. */
+.header-meta .inline-textarea{
+  min-height:5.2mm;
+  vertical-align:middle;
+}
+.header-side .inline-textarea{
+  min-height:5mm;
+  vertical-align:middle;
+}
+
+
+/* V4.2.22 — PDF / Yazdır görünümü ekrandaki belgeyle aynı renk ve geometriyi korur.
+   Chromium/Edge arka plan tasarrufunu engellemek için exact color-adjust tüm belgeye uygulanır.
+   Kritik renk dolgularında background + inset shadow birlikte kullanılır; böylece tarayıcı baskı
+   ayarının arka plan grafikleri davranışı farklı olsa bile kurumsal renkler mümkün olduğunca korunur. */
+@media print{
+  html,body,.app-root,.canvas-shell,.canvas-stage,.zoom-wrapper,.a4-page,
+  .a4-page *,.a4-page *::before,.a4-page *::after{
+    -webkit-print-color-adjust:exact!important;
+    print-color-adjust:exact!important;
+    color-adjust:exact!important;
+    forced-color-adjust:none!important;
+  }
+
+  /* Önizleme ve baskı arasındaki küçük input kaymalarını önle. */
+  .inline-field{
+    -webkit-text-fill-color:currentColor;
+  }
+  .a4-page input,.a4-page textarea,.a4-page select{
+    color:inherit!important;
+    opacity:1!important;
+  }
+
+  /* KİLİTLEME / ETİKETLEME TALİMATI — üst bilgi ve renkli başlıklar. */
+  .instruction-top-meta-table th{
+    background-color:#eef2f6!important;
+    box-shadow:inset 0 0 0 1000px #eef2f6!important;
+  }
+  .instruction-summary th:first-child{
+    background-color:#1479cf!important;
+    box-shadow:inset 0 0 0 1000px #1479cf!important;
+    color:#fff!important;
+  }
+  .instruction-summary th:last-child{
+    background-color:#d4b800!important;
+    box-shadow:inset 0 0 0 1000px #d4b800!important;
+    color:#111827!important;
+  }
+  .locking-count-input,.locking-steps-title{
+    background-color:#dc2f3c!important;
+    box-shadow:inset 0 0 0 1000px #dc2f3c!important;
+    color:#fff!important;
+    -webkit-text-fill-color:#fff!important;
+  }
+  .instruction-points th,
+  .instruction-photo-gallery + .instruction-points th{
+    background-color:#e9eef4!important;
+    box-shadow:inset 0 0 0 1000px #e9eef4!important;
+  }
+  .removal-title,.instruction-signers thead th{
+    background-color:#2fa84f!important;
+    box-shadow:inset 0 0 0 1000px #2fa84f!important;
+    color:#fff!important;
+  }
+  .instruction-signers tbody th.instruction-signer-row-label{
+    background-color:#f3f6f9!important;
+    box-shadow:inset 0 0 0 1000px #f3f6f9!important;
+    color:#111!important;
+  }
+
+  /* LOTO SOP — KKD / enerji seçim dolguları ve checkbox işaretleri. */
+  .ppe-grid{
+    background-color:#dcefd3!important;
+    box-shadow:inset 0 0 0 1000px #dcefd3!important;
+  }
+  .ppe-chip.checked{
+    background-color:#e5f4de!important;
+    box-shadow:inset 0 0 0 1000px #e5f4de!important;
+  }
+  .energy-grid label.checked{
+    background-color:#eff6ff!important;
+    box-shadow:inset 0 0 0 1000px #eff6ff!important;
+    border-color:#93c5fd!important;
+  }
+  .inline-check.checked .print-tick{
+    background-color:#1683ed!important;
+    box-shadow:inset 0 0 0 1000px #1683ed!important;
+    border-color:#1683ed!important;
+    color:#fff!important;
+  }
+
+  /* Tablo ve imza satırlarının sayfa ortasında parçalanmasını azalt. */
+  .a4-page tr,
+  .locking-summary,
+  .removal-block,
+  .instruction-signers thead,
+  .instruction-signers tbody tr{
+    break-inside:avoid;
+    page-break-inside:avoid;
+  }
+
+  /* Baskıda edit/hover/focus izleri hiçbir koşulda görünmez. */
+  .edit-mode .inline-field:hover,
+  .edit-mode .inline-field:focus,
+  .edit-mode .inline-field:focus-visible{
+    background:transparent!important;
+    border-color:transparent!important;
+    box-shadow:none!important;
+    outline:0!important;
+  }
+}
+
+/* V4.2.45 — Talimat / Enerji Kaynağı: numara doğrudan görselin içinde girilir. */
+.instruction-point-first-cell{position:relative}
+.energy-tag-editor{position:relative;display:flex;align-items:center;gap:.7mm;flex:1 1 auto;min-width:0}
+.energy-tag-card{position:relative;display:block;width:24mm;height:12.5mm;flex:0 0 24mm}
+.energy-tag-select-trigger{width:24mm;height:12.5mm;padding:0;border:1px dashed #9ca3af;border-radius:1.2mm;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;cursor:pointer;color:#64748b;font-size:6.6pt;font-weight:700}
+.energy-tag-card.has-selection .energy-tag-select-trigger,.energy-tag-select-trigger.has-selection{border-style:solid;border-color:#94a3b8;background:#f8fafc}
+.energy-tag-select-trigger img{width:100%;height:100%;object-fit:contain;display:block}
+.energy-tag-overlay-input{position:absolute;left:var(--energy-tag-number-left,69%);top:50%;transform:translateY(-50%);width:var(--energy-tag-number-width,14%);height:5.8mm;border:1px solid transparent;border-radius:.8mm;background:transparent;text-align:center;font:700 8.2pt Arial,sans-serif;font-variant-numeric:tabular-nums;padding:0;outline:none;box-shadow:none;letter-spacing:0;cursor:text;transition:border-color .12s ease,background .12s ease,box-shadow .12s ease;text-shadow:var(--energy-tag-input-text-shadow,none)}
+.energy-tag-overlay-input::placeholder{color:transparent}
+.edit-mode .energy-tag-overlay-input:hover{border-color:var(--energy-tag-input-hover-border,rgba(22,131,237,.45));background:var(--energy-tag-input-hover-bg,rgba(255,255,255,.58))}
+.edit-mode .energy-tag-overlay-input:focus{outline:none;border-color:var(--energy-tag-input-focus-border,#1683ed);background:var(--energy-tag-input-focus-bg,rgba(255,255,255,.92));box-shadow:0 0 0 1px var(--energy-tag-input-focus-ring,rgba(22,131,237,.2))}
+.energy-tag-overlay-input::-webkit-outer-spin-button,.energy-tag-overlay-input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.energy-tag-overlay-input[type=number]{-moz-appearance:textfield}
+.energy-tag-print-preview{display:none}
+.energy-tag-picker{position:absolute;left:0;top:calc(100% + 1mm);z-index:80;width:78mm;padding:2mm;background:#fff;border:1px solid #cbd5e1;border-radius:2mm;box-shadow:0 3mm 9mm rgba(15,23,42,.18)}
+.energy-tag-picker-title{font-size:7.4pt;font-weight:800;color:#111827;margin-bottom:1.3mm}
+.energy-tag-picker-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1mm}
+.energy-tag-picker-grid button{border:1px solid #cbd5e1;border-radius:1.5mm;background:#fff;padding:.8mm;cursor:pointer;display:grid;gap:.5mm;align-items:center;justify-items:center;min-width:0}
+.energy-tag-picker-grid button:hover{border-color:#1683ed;background:#f0f7ff}
+.energy-tag-picker-grid button.selected{border-color:#1683ed;box-shadow:0 0 0 1px #1683ed inset;background:#eff6ff}
+.energy-tag-picker-grid img{width:100%;height:14mm;object-fit:contain;display:block}
+.energy-tag-picker-grid span{font-size:7pt;font-weight:800;line-height:1;color:#111827}
+.energy-tag-clear{margin-top:1.2mm;width:100%;border:1px solid #fecaca;background:#fff5f5;color:#b91c1c;border-radius:1.2mm;padding:1mm;font-size:7pt;font-weight:700;cursor:pointer}
+.energy-tag-preview{display:flex;align-items:center;gap:.8mm;min-width:0;width:100%}
+.energy-tag-preview img{width:24mm;height:12mm;object-fit:contain;display:block}
+.energy-tag-preview-fallback{font-size:7pt;white-space:pre-wrap;overflow-wrap:anywhere}
+.preview-mode .energy-tag-editor{display:block}
+@media print{
+  .energy-tag-editor{display:block!important}
+  .energy-tag-picker,.energy-tag-overlay-input{display:none!important}
+  .energy-tag-card{width:29mm!important;height:15mm!important}
+  .energy-tag-select-trigger{display:none!important}
+  .energy-tag-print-preview{display:block!important;width:29mm!important;height:15mm!important;object-fit:contain!important}
+  .energy-tag-preview img{width:29mm!important;height:15mm!important}
+}
+
+/* V4.2.55 — 5. LOTO Talimatı ve 2. Kullanılacak LOTO Ekipmanları fotoğrafları kapak fotoğrafı gibi taşınabilir / boyutlandırılabilir. */
+.steps-table .step-photo-media,
+.equipment-table .equipment-photo-media{
+  position:relative;
+  width:100%;
+  overflow:visible;
+}
+.steps-table .step-photo-media{height:29mm;min-height:29mm}
+.equipment-table .equipment-photo-media{height:30mm;min-height:30mm}
+.steps-table .step-photo-media .image-placeholder,
+.equipment-table .equipment-photo-media .image-placeholder{
+  width:100%;
+  height:100%;
+  min-height:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:1.2mm;
+  border:1px dashed #94a3b8;
+  border-radius:2mm;
+  background:#f8fafc;
+  color:#64748b;
+  font-size:7.4pt;
+  font-weight:800;
+}
+.step-photo-frame,
+.equipment-photo-frame{
+  position:absolute;
+  box-sizing:border-box;
+  overflow:hidden;
+  background:transparent;
+  cursor:grab;
+  outline:none;
+  user-select:none;
+  touch-action:none;
+}
+.edit-mode .step-photo-frame,
+.edit-mode .equipment-photo-frame{box-shadow:inset 0 0 0 1px #2563eb}
+.step-photo-frame.photo-interacting,
+.equipment-photo-frame.photo-interacting{cursor:grabbing}
+.step-photo-positioned-img,
+.equipment-photo-positioned-img{
+  display:block;
+  width:100%;
+  height:100%;
+  max-width:none!important;
+  max-height:none!important;
+  min-width:0!important;
+  min-height:0!important;
+  pointer-events:none;
+  user-select:none;
+}
+.edit-mode .step-photo-frame .photo-resize-handle,
+.edit-mode .equipment-photo-frame .photo-resize-handle{display:block!important}
+.edit-mode .step-photo-frame .step-photo-crop-overlay~.photo-resize-handle,
+.edit-mode .equipment-photo-frame .step-photo-crop-overlay~.photo-resize-handle{display:none!important}
+.preview-mode .step-photo-frame .photo-resize-handle,
+.preview-mode .step-photo-frame .photo-resize-dimensions,
+.preview-mode .equipment-photo-frame .photo-resize-handle,
+.preview-mode .equipment-photo-frame .photo-resize-dimensions{display:none!important}
+@media print{
+  .step-photo-frame .photo-resize-handle,
+  .step-photo-frame .photo-resize-dimensions,
+  .equipment-photo-frame .photo-resize-handle,
+  .equipment-photo-frame .photo-resize-dimensions{display:none!important}
+}
+
+/* v4.2.56 photo-menu fix: actions live in a body-level portal, not inside a clipped photo.
+   This also avoids the A4 canvas zoom (transform) shrinking the popup. */
+.photo-action-menu.photo-action-menu--portal {
+  position: fixed !important;
+  right: auto !important;
+  bottom: auto !important;
+  z-index: 9999 !important;
+  width: 168px !important;
+  max-width: calc(100vw - 16px) !important;
+  max-height: calc(100dvh - 16px) !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain;
+  padding: 5px !important;
+  gap: 2px !important;
+}
+.photo-action-menu--portal button {
+  min-height: 31px !important;
+  padding: 6px 8px !important;
+  font-size: 11px !important;
+  line-height: 1.2 !important;
+}
+.photo-action-menu--portal button:disabled { opacity: .4 !important; cursor: not-allowed !important; }
+@media print { .photo-action-menu--portal { display: none !important; } }
+
+/* V4.2.56 hotfix — Kilitleme Ekipmanı: editable, self-sizing photo canvas.
+   Add button occupies no image-strip width; full frame is saved per image. */
+.instruction-points .instruction-lock-equipment-cell.instruction-equipment-editor{
+  position:relative;display:block;min-height:0;min-width:0;overflow:visible;
+}
+.instruction-equipment-editor .instruction-equipment-workspace{
+  display:block;position:relative;width:100%;margin:0;padding:0;box-sizing:border-box;
+  min-height:0;overflow:visible;transition:height .08s ease-out;
+}
+.edit-mode .instruction-equipment-editor .instruction-equipment-workspace{
+  background:linear-gradient(90deg,rgba(148,163,184,.065) 1px,transparent 1px),linear-gradient(rgba(148,163,184,.065) 1px,transparent 1px);
+  background-size:4mm 4mm;
+}
+.instruction-equipment-editor .instruction-equipment-photo{
+  position:absolute;box-sizing:border-box;margin:0;padding:0;user-select:none;touch-action:none;
+}
+.instruction-equipment-editor .instruction-equipment-media{
+  position:relative;width:100%;height:100%;overflow:hidden;outline:0;cursor:grab;touch-action:none;
+}
+.instruction-equipment-editor .instruction-equipment-photo.is-selected .instruction-equipment-media{
+  outline:1px solid #2563eb;outline-offset:-1px;
+}
+.instruction-equipment-editor .instruction-equipment-media>img{
+  display:block;width:100%;height:100%;max-width:none;max-height:none;pointer-events:none;user-select:none;
+}
+.instruction-equipment-editor .instruction-equipment-photo.is-selected .photo-resize-handle{display:block!important}
+.instruction-equipment-editor .instruction-equipment-photo .photo-menu-trigger{
+  position:absolute;right:.4mm;top:.4mm;display:grid!important;z-index:60;
+}
+.instruction-equipment-editor .instruction-equipment-add-corner{
+  position:absolute;right:0;top:0;z-index:65;width:5.5mm;height:5.5mm;min-width:0;padding:0;
+  display:grid;place-items:center;border:1px solid #93b5d4;border-radius:1.3mm;
+  background:rgba(248,251,255,.97);color:#225a91;cursor:pointer;
+  opacity:.22;transition:opacity .12s ease,background .12s ease;
+}
+.instruction-equipment-editor:hover .instruction-equipment-add-corner,
+.instruction-equipment-editor:focus-within .instruction-equipment-add-corner,
+.instruction-equipment-editor .instruction-equipment-add-corner:focus-visible{opacity:1}
+.instruction-equipment-editor .instruction-equipment-add-corner:hover{background:#dbeafe;color:#1d4ed8}
+.instruction-equipment-editor .instruction-equipment-crop-actions{
+  position:absolute;left:0;top:calc(100% + 2mm);z-index:90;display:flex;gap:2px;
+  padding:3px;background:#fff;border:1px solid #cbd5e1;border-radius:5px;
+  box-shadow:0 4px 12px rgba(15,23,42,.2);white-space:nowrap;
+}
+.instruction-equipment-editor .instruction-equipment-crop-actions button{
+  font-size:9px;min-width:0!important;padding:3px 5px;border:1px solid #cbd5e1;
+  border-radius:4px;background:#f8fafc;color:#1e293b;cursor:pointer;
+}
+.instruction-equipment-editor .instruction-equipment-crop-actions button:last-child{background:#2563eb;color:#fff;border-color:#2563eb}
+.instruction-equipment-editor .instruction-equipment-crop-actions button:disabled{opacity:.45;cursor:default}
+.instruction-equipment-editor .instruction-lock-equipment-empty{width:100%;min-height:10mm}
+.instruction-equipment-editor .instruction-lock-equipment-legacy{margin-top:.6mm;min-height:0}
+.instruction-points .instruction-point-row:focus-within{position:relative;z-index:45!important}
+.preview-mode .instruction-equipment-editor .instruction-equipment-crop-actions,
+.preview-mode .instruction-equipment-editor .instruction-equipment-add-corner,
+.preview-mode .instruction-equipment-editor .photo-resize-handle,
+.preview-mode .instruction-equipment-editor .photo-menu-trigger{display:none!important}
+@media print{
+ .instruction-equipment-editor .instruction-equipment-workspace{background:transparent!important}
+ .instruction-equipment-editor .instruction-equipment-add-corner,
+ .instruction-equipment-editor .instruction-equipment-crop-actions,
+ .instruction-equipment-editor .photo-resize-handle,
+ .instruction-equipment-editor .photo-menu-trigger{display:none!important}
+}
+
+.instruction-equipment-column-hint{display:block;margin-top:.5mm;font-size:5.4pt;font-style:italic;font-weight:400;color:#64748b;white-space:normal}

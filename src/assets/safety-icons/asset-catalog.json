@@ -1,0 +1,113 @@
+{
+  "ppe": {
+    "ppe-gloves-protective.jpg": "ISO 7010 KKD/koruyucu eldiven.jpg",
+    "ppe-gloves-chemical.png": "ISO 7010 KKD/kim. eldiven.png",
+    "ppe-suit-protective.jpg": "ISO 7010 KKD/tulum.jpg",
+    "ppe-helmet.jpg": "ISO 7010 KKD/baret.jpg",
+    "ppe-boots-protective.jpg": "ISO 7010 KKD/koruyucu ayakkabı.jpg",
+    "ppe-hearing-protection.jpg": "ISO 7010 KKD/Kulak koruyucu.jpg",
+    "ppe-harness-fall-arrest.jpg": "ISO 7010 KKD/paraşüt tipi emniyet kemeri.jpg",
+    "ppe-welding-helmet.jpg": "ISO 7010 KKD/kaynak maskesi.jpg",
+    "ppe-face-shield.jpg": "ISO 7010 KKD/yüz koruyucu.jpg",
+    "ppe-goggles.jpg": "ISO 7010 KKD/Gözlük.jpg",
+    "ppe-boots-antistatic.jpg": "ISO 7010 KKD/antistatik ayakkabı.jpg",
+    "ppe-respirator-mask.jpg": "ISO 7010 KKD/solunum koruyucu maske.jpg"
+  },
+  "warnings": {
+    "warning-corrosive.jpg": "ISO 7010 uyarı levhaları/Aşındırıcı madde.jpg",
+    "warning-sharp-edge.jpg": "ISO 7010 uyarı levhaları/Keskin nokta, kesici yüzey.jpg",
+    "warning-electricity.jpg": "ISO 7010 uyarı levhaları/Elektrik.jpg",
+    "warning-hot-surface.jpg": "ISO 7010 uyarı levhaları/Sıcak yüzey.jpg",
+    "warning-falling-objects.jpg": "ISO 7010 uyarı levhaları/Düşen nesne.jpg",
+    "warning-slippery-surface.jpg": "ISO 7010 uyarı levhaları/Kaygan zemin.jpg",
+    "warning-high-noise.jpg": "ISO 7010 uyarı levhaları/Yüksek ses seviyesi.jpg",
+    "warning-fall-hazard.jpg": "ISO 7010 uyarı levhaları/Düşme.jpg",
+    "warning-laser-beam.jpg": "ISO 7010 uyarı levhaları/Lazer ışını.jpg",
+    "warning-arc-flash.jpg": "ISO 7010 uyarı levhaları/Ark parlaması.jpg",
+    "warning-hydraulic.jpg": "ISO 7010 uyarı levhaları/Hidrolik.jpg",
+    "warning-mechanical-rotation.jpg": "ISO 7010 uyarı levhaları/Karşılıklı dönen silindir.jpg",
+    "warning-steam.jpg": "ISO 7010 uyarı levhaları/Buhar.jpg",
+    "warning-pressure-burst.png": "Word içindeki gömülü simge (ayrı dosya olarak klasörde yoktu)"
+  },
+  "energy": {
+    "energy-electric.jpg": "Enerji kaynakları/Elektrik.jpg",
+    "energy-steam.jpg": "Enerji kaynakları/Buhar Enerji.jpg",
+    "energy-mechanical.jpg": "Enerji kaynakları/Mekanik Enerji.jpg",
+    "energy-pneumatic.png": "Enerji kaynakları/Pnömaitk.png",
+    "energy-chemical.jpg": "Enerji kaynakları/Kimyasal Enerji.jpg",
+    "energy-hydraulic.jpg": "Enerji kaynakları/Hidrolik Enerji.jpg",
+    "energy-thermal.jpg": "Enerji kaynakları/Termal Sıcaklık.jpg",
+    "energy-food-grade-liquid.png": "Enerji kaynakları/J6595.png",
+    "energy-fluid-spray-head.png": "Enerji kaynakları/J7212.png",
+    "energy-fluid-spray-hand.png": "Enerji kaynakları/J7209.png",
+    "energy-spring-force.png": "Enerji kaynakları/J7208.png"
+  },
+  "notes": [
+    "warning-pressure-burst.png Word dosyasının içinden çıkarıldı; aynı zip içinde bulunduğu için tek kaynak setine dahil edildi.",
+    "energy-food-grade-liquid.png için klasörde açık isimli bir dosya yoktu; J6595.png en yakın enerji/gıda-sıvı görseli olarak eşlendi."
+  ],
+  "runtime": {
+    "singleSourceDirectory": "src/assets/safety-icons",
+    "note": "UI and Word export both import icons only from this directory."
+  },
+  "projectPpeMapping": {
+    "heatGlove": [
+      "ppe/ppe-gloves-protective.jpg",
+      "warnings/warning-hot-surface.jpg"
+    ],
+    "mechanicGlove": [
+      "ppe/ppe-gloves-protective.jpg",
+      "warnings/warning-sharp-edge.jpg"
+    ],
+    "insulatedGlove": [
+      "ppe/ppe-gloves-protective.jpg",
+      "warnings/warning-electricity.jpg"
+    ],
+    "arcSuit": [
+      "ppe/ppe-suit-protective.jpg",
+      "warnings/warning-arc-flash.jpg"
+    ],
+    "insulatedBoot": [
+      "ppe/ppe-boots-protective.jpg",
+      "warnings/warning-electricity.jpg"
+    ],
+    "workBoot": [
+      "ppe/ppe-boots-protective.jpg",
+      "warnings/warning-slippery-surface.jpg"
+    ],
+    "specialSuit": [
+      "ppe/ppe-suit-protective.jpg",
+      "warnings/warning-pressure-burst.png"
+    ],
+    "overall": [
+      "ppe/ppe-suit-protective.jpg",
+      "warnings/warning-corrosive.jpg"
+    ],
+    "boot": [
+      "ppe/ppe-boots-protective.jpg",
+      "warnings/warning-corrosive.jpg"
+    ],
+    "faceShield": [
+      "ppe/ppe-face-shield.jpg",
+      "warnings/warning-corrosive.jpg"
+    ],
+    "chemicalGlove": [
+      "ppe/ppe-gloves-protective.jpg",
+      "warnings/warning-corrosive.jpg"
+    ],
+    "harness": [
+      "ppe/ppe-harness-fall-arrest.jpg",
+      "warnings/warning-fall-hazard.jpg"
+    ]
+  },
+  "projectEnergyMapping": {
+    "electric": "energy/energy-electric.jpg",
+    "steam": "energy/energy-steam.jpg",
+    "mechanic": "energy/energy-mechanical.jpg",
+    "pneumatic": "energy/energy-pneumatic.png",
+    "chemical": "energy/energy-chemical.jpg",
+    "hydraulic": "energy/energy-hydraulic.jpg",
+    "thermal": "energy/energy-thermal.jpg",
+    "foodLiquid": "energy/energy-food-grade-liquid.png"
+  }
+}
